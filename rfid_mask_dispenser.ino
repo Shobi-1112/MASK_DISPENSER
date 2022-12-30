@@ -13,8 +13,8 @@ long duration;
 int distance;
 #define ON_Board_LED D4  //--> Defining an On Board LED, used for indicators when the process of connecting to a wifi router
 //----------------------------------------SSID and Password of your WiFi router-------------------------------------------------------------------------------------------------------------//
-const char* ssid = "POCO X3 Pro";
-const char* password = "achu1234!";
+const char* ssid = "SSID NAME";
+const char* password = "PASSWORD";
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 ESP8266WebServer server(80);  //--> Server on port 80
 int readsuccess;
